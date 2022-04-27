@@ -1,6 +1,7 @@
 server:
   #asigna un puerto que se encuentre sin uso automaticamente
-  port: ${PORT:${SERVER_PORT:0}}
+  port: ${PORT}
+  #port: ${PORT:${SERVER_PORT:0}}
 spring:
   jpa:
     database: POSTGRESQL
