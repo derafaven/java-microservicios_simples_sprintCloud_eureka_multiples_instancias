@@ -20,7 +20,7 @@ eureka:
     service-url:
       default-zone: http://localhost:8761/eureka
     instance:
-      instance-id: ${sprint.application.name}:${spring.application.instance_id:${random.value}}
+      instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
 #servidor
 #server.port=8001
